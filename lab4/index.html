@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Stedent card FORM</h1>
+    </header>
+    <main>
+        <section>
+             <form action="#" method="post">
+            <h2>Personal Information</h2>
+           
+                <fieldset>
+                    <legend>Provide your details</legend>
+                    <label >Full Name: </label>
+                    <input type="text" name="fullname" required>
+                    <br><br>
+
+                    <label> Email: </label>
+                    <input type="email" name="email" required>
+                    <br><br>
+
+                    <label> Password: </label>
+                    <input type="password" name="password" required>
+                    <br><br>
+
+                    <label> Age:</label>
+                    <input type="number" name="age">
+                    <br><br>
+
+                    <label> Date of Birth:</label>
+                    <input type="date" name="birthdate">
+                    <br><br>
+               
+                    <label > Geneder:</label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                    <input type="radio" name="gender" value="female">
+                    Female
+                    <input type="radio" name="gender" value="other">
+                    Other
+                    <br><br>
+                    <label>Languages Known:<label>
+                        <input type="checkbox" name="language" value="english">
+                        English
+                        <input type="checkbox" name="language" value="spanish">
+                        Spanish
+                        <input type="checkbox" name="language" value="french">
+                        French
+                        <br><br>
+                        <label> Country:</label>
+                        <select name="country">
+                            <option>Ukraine</option>
+                            <option>Poland</option>
+                            <option>Germany</option>
+                            <option>France</option>
+                        </select>
+                        <br><br>
+                </fieldset>
+                 
+                <h2>College Subjects:</h2>
+                <fieldset>
+                    <legend>Select your subjects</legend>
+                    <select name="subjects" multiple>
+                        <option>Mathematics</option>
+                        <option>Computer Science</option>
+                        <option>Physics</option>
+                        <option>Chemistry</option>
+                        <option>English</option>
+                    </select>
+                    <br><br>
+                    <label>Rate Interest in Computer Science:</label>
+                    <input type="range" name="interest">
+                    <br><br>
+                    </fieldset>
+                    <h2>Skills Assessment</h2>
+                    <fieldset>
+                        <legend>Assess your skills</legend>
+                        <label>Describe Skills:</label>
+                        <textarea name="skills"></textarea>
+                        <br><br>
+                        <label>Upload Resume:</label>
+                        <input type="file" name="resume">
+                        <br><br>
+                        <label>Pick Favorite Color:</label>
+                        <input type="color" name="color">
+                        <br><br>
+                        <label>Preferred Study Time:</label>
+                        <input type="time" name="time">
+                        <br><br>
+                        <input type="submit" value="Submit Survey">
+                    </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Student card by Sofiia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
